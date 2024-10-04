@@ -21,7 +21,7 @@ Ensure you have the following installed on your system:
 
 ```bash
 git clone https://github.com/hackerjwe/smalltalk-speech-to-talk.git
-cd your-repo
+cd smalltalk-speech-to-talk
 ```
 
 ### 2. Create a Virtual Environment (optional but recommended)
