@@ -19,39 +19,39 @@ Ensure you have the following installed on your system:
 
 ### 1. Clone the Repository
 
-\```bash
-git clone https://github.com/your-username/your-repo.git
+```bash
+git clone https://github.com/hackerjwe/smalltalk-speech-to-talk.git
 cd your-repo
-\```
+```
 
 ### 2. Create a Virtual Environment (optional but recommended)
 
-\```bash
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
-\```
+```
 
 ### 3. Install Dependencies
 
-\```bash
+```bash
 pip install -r requirements.txt
-\```
+```
 
 ### 4. Set Up Environment Variables
 
 Create a `.env` file in the root directory and add your OpenAI API key:
 
-\```plaintext
+```plaintext
 OPENAI_API_KEY=your-api-key
-\```
+```
 
 ### 5. Run the Program
 
 Start the Smalltalk Code Generator Chat Agent:
 
-\```bash
-python smalltalk_code_generator.py
-\```
+```bash
+python chat-agent.py
+```
 
 ### 6. Usage
 
