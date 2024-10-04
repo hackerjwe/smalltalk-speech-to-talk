@@ -25,7 +25,7 @@ def generate_smalltalk_code(user_input):
                 },
                 {"role": "user", "content": user_input}
             ],
-            max_tokens=150,
+            max_tokens=5000,
             temperature=0.2,
             n=1
         )
